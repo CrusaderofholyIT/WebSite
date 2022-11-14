@@ -6,14 +6,10 @@ body {
 
 }
 
-
-
-
 /*правило для элементов относящихся к классу a_footer*/
 .a_footer {
     display: block;
 }
-
 
 h1 {
     text-align: center;
@@ -75,9 +71,10 @@ header {
 
 
 iframe {
-    border: 0;
-    margin-right: 10%;
+   margin-right: 10%;
     margin-left: 10%;
+    width: 80%;
+    height: 450;
 }
 
 adress {
