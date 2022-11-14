@@ -1,0 +1,93 @@
+/*правило для элементов main*/
+main {}
+
+body {
+    background-color: #ffffff;
+
+}
+
+
+
+
+/*правило для элементов относящихся к классу a_footer*/
+.a_footer {
+    display: block;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 20px 10px 0px 0px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 10px 0px 0px;
+}
+
+p {
+    text-align: center;
+    font-size: 3vmin;
+}
+
+/*подключаем картинку для шапки*/
+header {
+    background: url('https://d626yq9e83zk1.cloudfront.net/files/2017/12/26-770x425.jpg') bottom center no-repeat;
+    background-size: 100vw;
+    width: 100%;
+    height: 28%;
+    color: white;
+    text-align: center;
+}
+
+@media print (max-width:430px) {
+    header {
+        height: 260px;
+    }
+
+}
+
+.ul-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.carousel {
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    margin-left: 3%;
+}
+
+line {
+    background-size: 100%;
+    width: 100%;
+    height: 2%;
+    color: white;
+    text-align: center;
+}
+
+
+
+iframe {
+    border: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+adress {
+    text-align: center;
+}
+
+li {
+    font-size: 2.7vmin;
+}
+
+ol {
+    font-size: 2.7vmin;
+}
